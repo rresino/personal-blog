@@ -9,42 +9,40 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+		.row {
+			display: flex;
+		}
+		.column {
+			flex: 50%;
+		}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<h1>Hello, This is my personal page!</h1>
+			
+			<div class="row">
+				<div class="column">
+					<img src="/imgs/home.jpg" style="max-width: 300px;"/>
+				</div>
+				<div class="column">
+					<p>
+						<li>The objective of this site is to store some useful articles about technology,</li>
+						<li>I would like to help other developers with my content.</li>
+						<li>Everything it's free (no subscriptions or payment), but please don't forget to mention the author.</li>
+						<li>If you find any mistake or want to add something email/tweet me, and I will answer as soon as possible.</li>
+					</p>
+				</div>
+			</div>
 			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
+				Opinions expressed are solely my own and do not express the views or opinions of my employer.
 			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/pages/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
+			<blockquote>
+				<p><strong>Note:</strong> Image of <a href="https://unsplash.com/es/@daniloalvesd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">danilo.alvesd</a> - <a href="https://unsplash.com/es/fotos/foto-en-escala-de-grises-de-una-mini-figura-de-lego-en-una-valla-de-madera-NPhdQeZ-hyU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+			</blockquote>
+  		</main>
 		<Footer />
 	</body>
 </html>

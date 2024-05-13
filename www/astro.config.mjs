@@ -4,7 +4,9 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
+// https://docs.astro.build/en/guides/deploy/github/
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://rresino.github.io',
+	// base: 'personal-blog',
 	integrations: [mdx(), sitemap()],
 });
