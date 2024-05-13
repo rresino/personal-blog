@@ -2,7 +2,7 @@
 title: 'Kotlin: IntArray vs Array of Int'
 description: 'As you know in Kotlin we have arrays and we have collections (List, Map...), but what are the difference between using an "IntArray" and an "Array", looks pretty much the same right?'
 pubDate: 'Apr 01 2024'
-heroImage: '/imgs/blog/02.webp'
+heroImage: '/personal-blog/imgs/blog/02.webp'
 tags: ["kotlin"]
 ---
 

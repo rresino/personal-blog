@@ -2,7 +2,7 @@
 title: 'Breadth-first search (BFS)'
 description: 'Breadth-first search in Kotlin'
 pubDate: 'May 07 2024'
-heroImage: '/imgs/blog/03.jpg'
+heroImage: '/personal-blog/imgs/blog/03.jpg'
 tags: ["kotlin","BFS"]
 ---
 

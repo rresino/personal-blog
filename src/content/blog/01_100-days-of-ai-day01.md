@@ -2,7 +2,7 @@
 title: 'First day of #100DaysOfAI challenge'
 description: 'Today I start the challenge of do 30 mins every day of something related with AI, with the goal of learn and practice AI.'
 pubDate: 'Apr 01 2024'
-heroImage: '/imgs/blog/01.jpg'
+heroImage: '/personal-blog/imgs/blog/01.jpg'
 tags: ["100 days of IA"]
 ---
 

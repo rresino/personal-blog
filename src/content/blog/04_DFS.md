@@ -2,7 +2,7 @@
 title: 'Depth-first search (DFS)'
 description: 'How to implement a Depth First Search in Kotlin'
 pubDate: 'Apr 12 2024'
-heroImage: '/imgs/blog/04.jpg'
+heroImage: '/personal-blog/imgs/blog/04.jpg'
 tags: ["kotlin","DFS"]
 ---
 
