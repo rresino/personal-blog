@@ -7,6 +7,5 @@ import sitemap from '@astrojs/sitemap';
 // https://docs.astro.build/en/guides/deploy/github/
 export default defineConfig({
 	site: 'https://rresino.github.io/personal-blog',
-	//base: 'personal-blog',
 	integrations: [mdx(), sitemap()],
 });
