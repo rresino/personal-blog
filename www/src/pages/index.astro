@@ -1,0 +1,48 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+		.row {
+			display: flex;
+		}
+		.column {
+			flex: 50%;
+		}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Hello, This is my personal page!</h1>
+			
+			<div class="row">
+				<div class="column">
+					<img src="/imgs/home.jpg" style="max-width: 300px;"/>
+				</div>
+				<div class="column">
+					<p>
+						<li>The objective of this site is to store some useful articles about technology,</li>
+						<li>I would like to help other developers with my content.</li>
+						<li>Everything it's free (no subscriptions or payment), but please don't forget to mention the author.</li>
+						<li>If you find any mistake or want to add something email/tweet me, and I will answer as soon as possible.</li>
+					</p>
+				</div>
+			</div>
+			<p>
+				Opinions expressed are solely my own and do not express the views or opinions of my employer.
+			</p>
+			<blockquote>
+				<p><strong>Note:</strong> Image of <a href="https://unsplash.com/es/@daniloalvesd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">danilo.alvesd</a> - <a href="https://unsplash.com/es/fotos/foto-en-escala-de-grises-de-una-mini-figura-de-lego-en-una-valla-de-madera-NPhdQeZ-hyU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+			</blockquote>
+  		</main>
+		<Footer />
+	</body>
+</html>
